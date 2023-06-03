@@ -1,0 +1,91 @@
+body { 
+    background-color: rgba(165, 0, 247, 0.26);
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.barra ul {
+    list-style-type: none;
+    text-align: center;
+
+}
+
+.barra li {
+    display:  inline;
+    text-align: center;
+    margin: 0px 20px 0px;
+}
+.barra a {
+    padding: 2px 7px;
+    color: black;
+    text-decoration: none;
+    background-color: rgb(236, 209, 246);
+    border: 1px solid rgb(150, 79, 237);
+}
+.barra {
+    background-color: rgb(212, 192, 239);
+    padding: 10px;
+    margin: 10px -10px;
+}
+.nombre {
+  font-style: oblique;
+  font-family: 'Times New Roman', Times, serif ;
+    color: rgb(143, 78, 143);
+    
+
+}
+#fotomia {
+    justify-content: center;
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+.datos-generales {
+    margin-right: 10% ;
+    font-family: 'Beau Rivage', cursive;
+    font-size: 20px;
+    
+}
+
+.datos-generales ul {
+    list-style-type:armenian;
+    color: blueviolet;
+}
+
+legend {
+    color: rgb(12, 0, 50);
+}
+
+fieldset {
+border-color: rgb(127, 157, 255);
+border-radius: 10px;
+}
+
+input {
+    background-color: rgb(206, 155, 254);
+    border-color: rgb(255, 255, 255);;
+    border-radius: 10px;
+    font-family: Cute Font;
+    margin: 10px;
+}
+label {
+    font-family: Cute Font;
+    font-size: 25px;
+}
+
+textarea {
+    background-color: rgb(211, 207, 248);
+    border-color: white;
+    border-radius: 10px;
+}
+
+.boton {
+    padding: 5px 15px;
+    font-family: Cute Font;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: aliceblue;
+    background-color: rgb(255, 176, 246);
+}

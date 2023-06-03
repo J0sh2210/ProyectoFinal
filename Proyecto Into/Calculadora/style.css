@@ -1,0 +1,41 @@
+
+body {
+    background-color: rgba(228, 161, 252, 0.695);
+}
+#contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    border: solid black 3px;
+
+
+}
+
+button{
+    border: none;
+    background-color: rgb(236, 218, 252);
+    font-size: 15px;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+
+#resultado{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border: groove black 1px;
+    width: 399px;
+}
+
+a {
+    text-decoration: none;
+    background-color: rgb(210, 232, 250);
+    padding: 20px;
+    margin-top: 10px;
+
+}

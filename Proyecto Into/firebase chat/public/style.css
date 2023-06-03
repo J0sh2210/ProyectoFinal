@@ -1,0 +1,66 @@
+body{
+    font-family: sans-serif;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.fila{
+    flex-direction: row;
+    justify-content:center;
+    margin-top: 10px;
+}
+
+.logo{
+    width: 70px;
+    margin: 10px;
+}
+
+.boton-iniciar-sesion{
+    border: 0px solid;
+    background-color: coral;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.boton-salir{
+    border: 0px solid;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    display: none;
+}
+
+.mensajes{
+    background-color: gainsboro;
+    padding: 15px;
+    width: 50%;
+    border: 1px solid blue;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.mensaje-enviar{
+     border-top-style: none;
+     border-right-style: none;
+     border-left-style: none ;
+     border-bottom-style: 2px solid blue;
+     width: 60%;
+     font-size: 16px;
+}
+.usuario{
+    color: blue;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px;
+    background-color: rgb(249, 202, 202);
+    color: aliceblue;
+}
